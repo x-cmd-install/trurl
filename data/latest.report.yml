@@ -5,7 +5,7 @@ about:
   head: 89fb5f3
   archived: false
   latestVersion: "trurl-0.16.1"
-  collectedAt: 2026-09-08T02:20:19Z
+  collectedAt: 2026-09-08T05:29:18Z
 timeline:
   created: 2023-03-31
   lastCommit: 2026-09-01
@@ -84,7 +84,7 @@ total:
   commit: 442
 ---
 path: /home/runner/.x-repo/github.com/curl/trurl
-collectedAt: 2026-09-08T02:20:20Z
+collectedAt: 2026-09-08T05:29:19Z
 loc:
   Json:
     code: 3561
