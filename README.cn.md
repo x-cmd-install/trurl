@@ -4,7 +4,7 @@
 
 a command line tool for URL parsing and manipulation.
 
-![trurl](https://repo.x-cmd.io/trurl.svg)
+![trurl](https://repo.x-cmd.io/trurl.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,17 @@ x install trurl
 - **最新版本**: `trurl-0.16.1` (2025-05-12)
 - **最近提交**: 2026-09-01
 - **Release 含资产**: 2 个
-- **发布时间**: 2025-05-12T06:26:45Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [trurl-0.16.1.tar.gz](https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz) | 62.6 KiB | `native/unknown` |
+| [trurl-0.16.1.tar.gz.asc](https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz.asc) | 488 B | `other` |
 
 ## 流行度
 
-- **Star**: 3,349 · **Fork**: 117 · **开放 issue**: 102 · **贡献者**: 39
+- **Star**: 3,348 · **Fork**: 117 · **开放 issue**: 102 · **贡献者**: 39
 
 ## 累计统计
 
@@ -62,4 +68,4 @@ trurl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:41:41Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T17:05:29Z._
