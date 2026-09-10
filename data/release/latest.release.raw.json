@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 64088,
       "digest": null,
-      "download_count": 6833,
+      "download_count": 6840,
       "created_at": "2025-05-12T06:26:29Z",
       "updated_at": "2025-05-12T06:26:30Z",
       "browser_download_url": "https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz"
