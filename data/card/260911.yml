@@ -7,7 +7,7 @@ about:
   latestVersion: "trurl-0.16.1"
   latestRelease: "trurl-0.16.1"
   latestPrerelease: "trurl-0.8"
-  collectedAt: 2026-09-11T05:35:07Z
+  collectedAt: 2026-09-11T19:29:06Z
 timeline:
   created: 2023-03-31
   lastCommit: 2026-09-01
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-05-12
   lastPrerelease: 2023-06-17
 popularity:
-  star: 3348
+  star: 3349
   watcher: 21
   fork: 116
   release: 17
@@ -88,7 +88,7 @@ total:
   commit: 442
 ---
 path: /home/runner/.x-repo/github.com/curl/trurl
-collectedAt: 2026-09-11T05:35:08Z
+collectedAt: 2026-09-11T19:29:08Z
 loc:
   Json:
     code: 3561
