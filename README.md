@@ -38,7 +38,7 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,354 · **Forks**: 116 · **Open issues**: 102 · **Contributors**: 39
+- **Stars**: 3,355 · **Forks**: 116 · **Open issues**: 102 · **Contributors**: 39
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 1 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-29 | 0 | 1 | 0 | 0 | 0 | 4 |
-| 90d | 2026-06-29 | 0 | 2 | 0 | 0 | 0 | 7 |
-| last180d | 2026-03-31 | 0 | 6 | 2 | 0 | 2 | 14 |
-| 360d | 2025-10-02 | 0 | 34 | 2 | 2 | 3 | 59 |
-| last720d | 2024-10-07 | 1 | 45 | 2 | 9 | 3 | 76 |
+| 30d | 2026-08-29 | 0 | 1 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-30 | 0 | 1 | 0 | 0 | 0 | 4 |
+| 90d | 2026-06-30 | 0 | 2 | 0 | 0 | 0 | 7 |
+| last180d | 2026-04-01 | 0 | 6 | 2 | 0 | 2 | 14 |
+| 360d | 2025-10-03 | 0 | 34 | 2 | 2 | 3 | 59 |
+| last720d | 2024-10-08 | 1 | 45 | 2 | 9 | 3 | 76 |
 
 ## Release assets
 
@@ -71,4 +71,4 @@ Install metadata for trurl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:09:59Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T06:09:29Z._
