@@ -38,7 +38,7 @@ x install trurl
 
 ## 流行度
 
-- **Star**: 3,359 · **Fork**: 119 · **开放 issue**: 102 · **贡献者**: 39
+- **Star**: 3,363 · **Fork**: 119 · **开放 issue**: 102 · **贡献者**: 39
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install trurl
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 1 | 0 | 0 | 1 |
-| last60d | 2026-08-23 | 0 | 1 | 1 | 0 | 0 | 5 |
-| 90d | 2026-07-24 | 0 | 1 | 1 | 0 | 0 | 5 |
-| last180d | 2026-04-25 | 0 | 2 | 2 | 0 | 2 | 9 |
-| 360d | 2025-10-27 | 0 | 23 | 3 | 2 | 3 | 40 |
-| last720d | 2024-11-01 | 1 | 44 | 3 | 8 | 3 | 76 |
+| 30d | 2026-09-23 | 0 | 0 | 1 | 0 | 0 | 1 |
+| last60d | 2026-08-24 | 0 | 1 | 1 | 0 | 0 | 5 |
+| 90d | 2026-07-25 | 0 | 1 | 1 | 0 | 0 | 5 |
+| last180d | 2026-04-26 | 0 | 2 | 2 | 0 | 2 | 9 |
+| 360d | 2025-10-28 | 0 | 23 | 3 | 2 | 3 | 40 |
+| last720d | 2024-11-02 | 1 | 44 | 3 | 8 | 3 | 76 |
 
 ## Release 资产
 
@@ -61,6 +61,25 @@ x install trurl
 |------|-----:|----------|
 | [trurl-0.16.1.tar.gz](https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz) | 62.6 KiB | `native/unknown` |
 | [trurl-0.16.1.tar.gz.asc](https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz.asc) | 488 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/trurl) 上共有 **74** 个发行版报告此项目。**48** 个 ✅ 已是最新上游版本，**17** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.16.1` | ✅ latest |
+| Debian 14 | `0.16.1` | ✅ latest |
+| Debian 13 | `0.16.1` | ✅ latest |
+| Ubuntu 26.04 LTS | `0.16.1` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.9` | ⚠️ outdated |
+| Arch | `0.16.1` | ✅ latest |
+| Homebrew | `0.16.1` | ✅ latest |
+| Fedora rawhide | `0.16.1` | ✅ latest |
+| Nix unstable | `0.16.1` | ✅ latest |
+| Void | `0.16.1` | ✅ latest |
+| Alpine edge | `0.16.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.16.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -71,4 +90,4 @@ trurl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:26:23Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:32:59Z._

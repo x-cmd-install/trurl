@@ -38,7 +38,7 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,359 · **Forks**: 119 · **Open issues**: 102 · **Contributors**: 39
+- **Stars**: 3,363 · **Forks**: 119 · **Open issues**: 102 · **Contributors**: 39
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 1 | 0 | 0 | 1 |
-| last60d | 2026-08-23 | 0 | 1 | 1 | 0 | 0 | 5 |
-| 90d | 2026-07-24 | 0 | 1 | 1 | 0 | 0 | 5 |
-| last180d | 2026-04-25 | 0 | 2 | 2 | 0 | 2 | 9 |
-| 360d | 2025-10-27 | 0 | 23 | 3 | 2 | 3 | 40 |
-| last720d | 2024-11-01 | 1 | 44 | 3 | 8 | 3 | 76 |
+| 30d | 2026-09-23 | 0 | 0 | 1 | 0 | 0 | 1 |
+| last60d | 2026-08-24 | 0 | 1 | 1 | 0 | 0 | 5 |
+| 90d | 2026-07-25 | 0 | 1 | 1 | 0 | 0 | 5 |
+| last180d | 2026-04-26 | 0 | 2 | 2 | 0 | 2 | 9 |
+| 360d | 2025-10-28 | 0 | 23 | 3 | 2 | 3 | 40 |
+| last720d | 2024-11-02 | 1 | 44 | 3 | 8 | 3 | 76 |
 
 ## Release assets
 
@@ -61,6 +61,25 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 |-------|-----:|--------|
 | [trurl-0.16.1.tar.gz](https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz) | 62.6 KiB | `native/unknown` |
 | [trurl-0.16.1.tar.gz.asc](https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz.asc) | 488 B | `other` |
+
+## Distribution status
+
+Reported by **74** distros on [repology.org](https://repology.org/project/trurl). **48** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.16.1` | ✅ latest |
+| Debian 14 | `0.16.1` | ✅ latest |
+| Debian 13 | `0.16.1` | ✅ latest |
+| Ubuntu 26.04 LTS | `0.16.1` | ✅ latest |
+| Ubuntu 24.04 LTS | `0.9` | ⚠️ outdated |
+| Arch | `0.16.1` | ✅ latest |
+| Homebrew | `0.16.1` | ✅ latest |
+| Fedora rawhide | `0.16.1` | ✅ latest |
+| Nix unstable | `0.16.1` | ✅ latest |
+| Void | `0.16.1` | ✅ latest |
+| Alpine edge | `0.16.1` | ✅ latest |
+| openSUSE Tumbleweed | `0.16.1` | ✅ latest |
 
 ## Improve this data
 
@@ -71,4 +90,4 @@ Install metadata for trurl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:26:23Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:32:59Z._
