@@ -1,28 +1,14 @@
-- repo: nix_stable_24_05
+- repo: nix_stable_25_05
   srcname: trurl
   visiblename: trurl
-  version: "0.13"
+  version: 0.16.1
   origversion: null
-  status: outdated
-  summary: A command line tool for URL parsing and manipulation
+  status: newest
+  summary: Command line tool for URL parsing and manipulation
   maintainers:
     - christoph@c8h4.io
   licenses:
     - curl
-- repo: deepin_25
-  subrepo: community
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: "0.16"
-  origversion: 0.16-1
-  status: outdated
-  maintainers:
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
 - repo: alpine_3_19
   subrepo: community
   srcname: trurl
@@ -319,6 +305,20 @@
     - charlesmelara@riseup.net
   categories:
     - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: "0.16"
+  origversion: 0.16-1
+  status: outdated
+  maintainers:
+    - abi@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: trurl
@@ -508,12 +508,12 @@
     - otis@freebsd.org
   categories:
     - misc
-- repo: nix_stable_24_11
+- repo: nix_stable_25_11
   srcname: trurl
   visiblename: trurl
-  version: "0.16"
+  version: 0.16.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Command line tool for URL parsing and manipulation
   maintainers:
     - christoph@c8h4.io
@@ -648,28 +648,6 @@
     - MIT
   categories:
     - net
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: trurl
-  binname: trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-1
-  status: newest
-  summary: Command line tool for URL parsing and manipulation
-  licenses:
-    - custom
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: trurl
-  binname: trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-1
-  status: newest
-  summary: Command line tool for URL parsing and manipulation
-  licenses:
-    - custom
 - repo: manjaro_unstable
   subrepo: extra
   srcname: trurl
@@ -681,23 +659,23 @@
   summary: Command line tool for URL parsing and manipulation
   licenses:
     - custom
-- repo: nix_stable_25_05
+- repo: nix_stable_24_05
   srcname: trurl
   visiblename: trurl
-  version: 0.16.1
+  version: "0.13"
   origversion: null
-  status: newest
-  summary: Command line tool for URL parsing and manipulation
+  status: outdated
+  summary: A command line tool for URL parsing and manipulation
   maintainers:
     - christoph@c8h4.io
   licenses:
     - curl
-- repo: nix_stable_25_11
+- repo: nix_stable_24_11
   srcname: trurl
   visiblename: trurl
-  version: 0.16.1
+  version: "0.16"
   origversion: null
-  status: newest
+  status: outdated
   summary: Command line tool for URL parsing and manipulation
   maintainers:
     - christoph@c8h4.io
