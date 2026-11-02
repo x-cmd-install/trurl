@@ -33,27 +33,27 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 ## Release
 
 - **Latest**: `trurl-0.16.1` (2025-05-12)
-- **Last commit**: 2026-10-28
+- **Last commit**: 2026-11-01
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 3,366 · **Forks**: 119 · **Open issues**: 102 · **Contributors**: 39
+- **Stars**: 3,366 · **Forks**: 120 · **Open issues**: 102 · **Contributors**: 39
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 218 · **Open PRs**: 4 · **Closed issues**: 99 · **Open issues**: 3 · **Commits**: 444
+- **Releases**: 17 · **Merged PRs**: 219 · **Open PRs**: 3 · **Closed issues**: 99 · **Open issues**: 3 · **Commits**: 445
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 1 | 2 | 0 | 0 | 1 |
-| last60d | 2026-09-02 | 0 | 1 | 2 | 0 | 0 | 2 |
-| 90d | 2026-08-03 | 0 | 2 | 2 | 0 | 0 | 6 |
-| last180d | 2026-05-05 | 0 | 3 | 2 | 0 | 1 | 10 |
-| 360d | 2025-11-06 | 0 | 22 | 4 | 2 | 3 | 35 |
-| last720d | 2024-11-11 | 1 | 45 | 4 | 8 | 3 | 77 |
+| 30d | 2026-10-03 | 0 | 2 | 1 | 0 | 0 | 2 |
+| last60d | 2026-09-03 | 0 | 2 | 1 | 0 | 0 | 3 |
+| 90d | 2026-08-04 | 0 | 3 | 1 | 0 | 0 | 7 |
+| last180d | 2026-05-06 | 0 | 4 | 1 | 0 | 1 | 11 |
+| 360d | 2025-11-07 | 0 | 23 | 3 | 2 | 3 | 36 |
+| last720d | 2024-11-12 | 1 | 46 | 3 | 8 | 3 | 78 |
 
 ## Release assets
 
@@ -64,7 +64,7 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **74** distros on [repology.org](https://repology.org/project/trurl). **48** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
+Reported by **72** distros on [repology.org](https://repology.org/project/trurl). **46** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for trurl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:56:29Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:55:25Z._
