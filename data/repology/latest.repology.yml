@@ -1,56 +1,3 @@
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-1
-  status: newest
-  maintainers:
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - web
-- repo: deepin_25
-  subrepo: community
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: "0.16"
-  origversion: 0.16-1
-  status: outdated
-  maintainers:
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-1
-  status: newest
-  maintainers:
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
-- repo: yacp
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: null
-  status: newest
-  summary: Command line tool for URL parsing and manipulation
-  categories:
-    - Net
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: trurl
@@ -65,6 +12,20 @@
     - charlesmelara@riseup.net
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-1
+  status: newest
+  maintainers:
+    - abi@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
 - repo: alpine_3_19
   subrepo: community
   srcname: trurl
@@ -117,6 +78,18 @@
     - jakub@jirutka.cz
   licenses:
     - curl
+- repo: aur
+  srcname: trurl-git
+  binname: trurl-git
+  visiblename: trurl-git
+  version: 0.9.r16.g1518a4b
+  origversion: 0.9.r16.g1518a4b-1
+  status: rolling
+  summary: Command line tool for URL parsing and manipulation
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - MIT
 - repo: alpine_3_21
   subrepo: community
   srcname: trurl
@@ -258,18 +231,6 @@
   summary: Command line tool for URL parsing and manipulation
   licenses:
     - custom
-- repo: aur
-  srcname: trurl-git
-  binname: trurl-git
-  visiblename: trurl-git
-  version: 0.9.r16.g1518a4b
-  origversion: 0.9.r16.g1518a4b-1
-  status: rolling
-  summary: Command line tool for URL parsing and manipulation
-  maintainers:
-    - chocobo1@aur
-  licenses:
-    - MIT
 - repo: chimera
   subrepo: user
   srcname: trurl
@@ -361,6 +322,20 @@
     - charlesmelara@riseup.net
   categories:
     - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: "0.16"
+  origversion: 0.16-1
+  status: outdated
+  maintainers:
+    - abi@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: trurl
@@ -409,22 +384,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: trurl
-  binnames:
-    - trurl
-    - trurl-debuginfo
-    - trurl-debugsource
-  visiblename: trurl
-  version: "0.15"
-  origversion: 0.15-1.fc40
-  status: outdated
-  summary: Command line tool for URL parsing and manipulation
-  licenses:
-    - curl
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: trurl
   binnames:
@@ -435,6 +394,22 @@
   version: "0.10"
   origversion: 0.10-1.fc40
   status: legacy
+  summary: Command line tool for URL parsing and manipulation
+  licenses:
+    - curl
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: trurl
+  binnames:
+    - trurl
+    - trurl-debuginfo
+    - trurl-debugsource
+  visiblename: trurl
+  version: "0.15"
+  origversion: 0.15-1.fc40
+  status: outdated
   summary: Command line tool for URL parsing and manipulation
   licenses:
     - curl
@@ -482,21 +457,6 @@
     - curl
   categories:
     - Unspecified
-- repo: raspbian_testing
-  subrepo: main
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-5
-  status: newest
-  maintainers:
-    - team+curl@tracker.debian.org
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
 - repo: fedora_43
   subrepo: release
   srcname: trurl
@@ -835,8 +795,8 @@
   summary: Command line tool for URL parsing and manipulation
   licenses:
     - custom
-- repo: parrot
-  subrepo: parrot/main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: trurl
   binnames:
     - trurl
@@ -845,6 +805,35 @@
   origversion: 0.16.1-1
   status: newest
   maintainers:
+    - abi@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - web
+- repo: raspbian_stable
+  subrepo: main
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-1
+  status: newest
+  maintainers:
+    - abi@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-5
+  status: newest
+  maintainers:
+    - team+curl@tracker.debian.org
     - abi@debian.org
     - charlesmelara@riseup.net
   categories:
@@ -947,21 +936,6 @@
     - trurl
   visiblename: trurl
   version: 0.16.1
-  origversion: 0.16.1-5ubuntu1
-  status: newest
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - universe/misc
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: 0.16.1
   origversion: 0.16.1-5willsync1
   status: newest
   maintainers:
@@ -983,3 +957,14 @@
     - joel@beckmeyer.us
   licenses:
     - MIT
+- repo: yacp
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: null
+  status: newest
+  summary: Command line tool for URL parsing and manipulation
+  categories:
+    - Net
