@@ -1,25 +1,13 @@
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: trurl
-  binname: trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-1
-  status: newest
-  summary: Command line tool for URL parsing and manipulation
-  licenses:
-    - custom
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: trurl
-  binname: trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-1
-  status: newest
-  summary: Command line tool for URL parsing and manipulation
-  licenses:
-    - custom
+- repo: slackbuilds
+  srcname: network/trurl
+  visiblename: network/trurl
+  version: 0.16.1_4
+  origversion: null
+  status: untrusted
+  maintainers:
+    - urchlay@slackware.uk
+  categories:
+    - network
 - repo: alpine_3_19
   subrepo: community
   srcname: trurl
@@ -96,17 +84,6 @@
   summary: command line tool for URL parsing and manipulation (documentation)
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - curl
-- repo: chimera
-  subrepo: user
-  srcname: trurl
-  binname: trurl-man
-  visiblename: trurl-man
-  version: 0.16.1
-  origversion: 0.16.1-r0
-  status: newest
-  summary: Command line tool for URL parsing and manipulation (manual pages)
   licenses:
     - curl
 - repo: alpine_3_22
@@ -193,7 +170,7 @@
   binname: trurl
   visiblename: trurl
   version: 0.16.1
-  origversion: 0.16.1-r1
+  origversion: 0.16.1-r2
   status: newest
   summary: command line tool for URL parsing and manipulation
   maintainers:
@@ -206,7 +183,7 @@
   binname: trurl-doc
   visiblename: trurl-doc
   version: 0.16.1
-  origversion: 0.16.1-r1
+  origversion: 0.16.1-r2
   status: newest
   summary: command line tool for URL parsing and manipulation (documentation)
   maintainers:
@@ -256,6 +233,17 @@
   origversion: 0.16.1-r0
   status: newest
   summary: Command line tool for URL parsing and manipulation (documentation)
+  licenses:
+    - curl
+- repo: chimera
+  subrepo: user
+  srcname: trurl
+  binname: trurl-man
+  visiblename: trurl-man
+  version: 0.16.1
+  origversion: 0.16.1-r0
+  status: newest
+  summary: Command line tool for URL parsing and manipulation (manual pages)
   licenses:
     - curl
 - repo: debian_12_backports
@@ -493,6 +481,20 @@
     - curl
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-8.fc45
+  status: newest
+  summary: Command line tool for URL parsing and manipulation
+  licenses:
+    - curl
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: trurl
@@ -659,6 +661,28 @@
   summary: Command line tool for URL parsing and manipulation
   licenses:
     - custom
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: trurl
+  binname: trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-1
+  status: newest
+  summary: Command line tool for URL parsing and manipulation
+  licenses:
+    - custom
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: trurl
+  binname: trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-1
+  status: newest
+  summary: Command line tool for URL parsing and manipulation
+  licenses:
+    - custom
 - repo: nix_stable_24_05
   srcname: trurl
   visiblename: trurl
@@ -768,7 +792,7 @@
   licenses:
     - custom
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: trurl
   binnames:
     - trurl
@@ -782,7 +806,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: trurl
   binnames:
     - trurl
@@ -809,16 +833,35 @@
     - charlesmelara@riseup.net
   categories:
     - web
-- repo: slackbuilds
-  srcname: network/trurl
-  visiblename: network/trurl
-  version: 0.16.1_4
-  origversion: null
-  status: untrusted
+- repo: raspbian_stable
+  subrepo: main
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-1
+  status: newest
   maintainers:
-    - urchlay@slackware.uk
+    - abi@debian.org
+    - charlesmelara@riseup.net
   categories:
-    - network
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: trurl
+  binnames:
+    - trurl
+  visiblename: trurl
+  version: 0.16.1
+  origversion: 0.16.1-5
+  status: newest
+  maintainers:
+    - team+curl@tracker.debian.org
+    - abi@debian.org
+    - charlesmelara@riseup.net
+  categories:
+    - misc
 - repo: termux
   srcname: trurl
   binname: trurl
@@ -939,32 +982,3 @@
   summary: Command line tool for URL parsing and manipulation
   categories:
     - Net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-1
-  status: newest
-  maintainers:
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: trurl
-  binnames:
-    - trurl
-  visiblename: trurl
-  version: 0.16.1
-  origversion: 0.16.1-5
-  status: newest
-  maintainers:
-    - team+curl@tracker.debian.org
-    - abi@debian.org
-    - charlesmelara@riseup.net
-  categories:
-    - misc
