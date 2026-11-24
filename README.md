@@ -33,27 +33,27 @@ Total: **7,257** lines of code across **8** files in the top 5 languages.
 ## Release
 
 - **Latest**: `trurl-0.16.1` (2025-05-12)
-- **Last commit**: 2026-11-23
+- **Last commit**: 2026-11-24
 - **Assets in release**: 2
 
 ## Popularity
 
-- **Stars**: 3,366 · **Forks**: 119 · **Open issues**: 104 · **Contributors**: 39
+- **Stars**: 3,365 · **Forks**: 119 · **Open issues**: 104 · **Contributors**: 39
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 219 · **Open PRs**: 3 · **Closed issues**: 99 · **Open issues**: 5 · **Commits**: 448
+- **Releases**: 17 · **Merged PRs**: 220 · **Open PRs**: 3 · **Closed issues**: 100 · **Open issues**: 4 · **Commits**: 450
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 2 | 0 | 0 | 2 | 4 |
-| last60d | 2026-09-24 | 0 | 2 | 1 | 0 | 2 | 6 |
-| 90d | 2026-08-25 | 0 | 3 | 1 | 0 | 2 | 10 |
-| last180d | 2026-05-27 | 0 | 4 | 1 | 0 | 3 | 14 |
-| 360d | 2025-11-28 | 0 | 20 | 3 | 2 | 4 | 38 |
-| last720d | 2024-12-03 | 1 | 46 | 3 | 7 | 5 | 80 |
+| 30d | 2026-10-25 | 0 | 3 | 0 | 1 | 1 | 6 |
+| last60d | 2026-09-25 | 0 | 3 | 1 | 1 | 1 | 8 |
+| 90d | 2026-08-26 | 0 | 4 | 1 | 1 | 1 | 12 |
+| last180d | 2026-05-28 | 0 | 5 | 1 | 1 | 2 | 16 |
+| 360d | 2025-11-29 | 0 | 21 | 3 | 3 | 3 | 40 |
+| last720d | 2024-12-04 | 1 | 46 | 3 | 8 | 4 | 82 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for trurl lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T10:15:02Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:06:54Z._
